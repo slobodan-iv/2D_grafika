@@ -14,7 +14,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Почетна страна!</title>
+    <title>Котирање!</title>
   </head>
   <body>
     <!-- navbar -->
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Подешавања</a>
+              <a class="nav-link" aria-current="page" href="index.html">Подешавања</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="zaglavlje.html">Заглавље</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kotiranje_srafura.html">Котирање и шрафура</a>
+              <a class="nav-link active" href="#">Котирање и шрафура</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#" aria-disabled="true">Цртеж вратила</a>
@@ -49,89 +49,65 @@
         <h1>Компјутерска графика - 2D</h1>
         <div class="row justify-content-center">
           <div class="col-12 col-sm-12 col-md-11 col-lg-10">
-            <div class="accordion" id="podesavanja">
+            <div class="accordion" id="srafura_kotiranje">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="deb_linija_zad">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_deb_linija_zad" aria-expanded="true" aria-controls="collapse_deb_linija_zad">
-                    Задатак дебљине линија:
+                <h2 class="accordion-header" id="zadatak_srafura_kotiranje">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_zadatak_srafura_kotiranje" aria-expanded="true" aria-controls="collapse_zadatak_srafura_kotiranje">
+                    Задатак шрафура и котирање:
                   </button>
                 </h2>
-                <div id="collapse_deb_linija_zad" class="accordion-collapse collapse show" aria-labelledby="deb_linija_zad" data-bs-parent="#podesavanja">
+                <div id="collapse_zadatak_srafura_kotiranje" class="accordion-collapse collapse show" aria-labelledby="zadatak_srafura_kotiranje" data-bs-parent="#srafura_kotiranje">
                   <div class="accordion-body">
-                    <img src="Pictures/Crtezi/linije.jpg" width="100%" alt="Цртеж са дебљинама линија">
+                    <img src="Pictures/Crtezi/srafura_kote.jpg" width="100%" alt="Цртеж са шрафуром и котама">
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="deb_linija">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_deb_linija" aria-expanded="true" aria-controls="collapse_deb_linija">
-                    Врсте и дебљине линија:
+                <h2 class="accordion-header" id="tutorial_sr_kot">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_tutorial_sr_kot" aria-expanded="true" aria-controls="collapse_tutorial_sr_kot">
+                    Убацивање шрафуре и кота на цртеж
                   </button>
                 </h2>
-                <div id="collapse_deb_linija" class="accordion-collapse collapse" aria-labelledby="deb_linija" data-bs-parent="#podesavanja">
-                  <div class="accordion-body">
-                    <img src="Pictures/tipovi_linija.jpg" width="100%" alt="Препоруке за линије у техничком цртању">
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="stampac">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_stampac" aria-expanded="true" aria-controls="collapse_stampac">
-                    Подешавања цртежа и штампача
-                  </button>
-                </h2>
-                <div id="collapse_stampac" class="accordion-collapse collapse" aria-labelledby="stampac" data-bs-parent="#podesavanja">
+                <div id="collapse_tutorial_sr_kot" class="accordion-collapse collapse" aria-labelledby="tutorial_sr_kot" data-bs-parent="#srafura_kotiranje">
                   <p>
-                    Када имамао штампач цртеж се подешава према туторијалу:
+                    <strong>Попречни пресеци</strong> се према правилима техничког цртања шрафирају. Такође на цртеже је потребно убацити и <strong>коте</strong>.
+                  </p>
+                  <p>
+                    <strong>Шрафура и стилови за димензионисање</strong> се подешавају према туторијалу:
                   </p>
                   <div class="accordion-body">
                     <div class="card ratio ratio-16x9">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/BU57sswLuvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/7jR0OlPUfR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <h2 class="accordion-header" id="PDF24stampac">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_PDF24stampac" aria-expanded="true" aria-controls="collapse_PDF24stampac">
-                    Подешавања PDF24 "штампача"
-                  </button>
-                </h2>
-                <div id="collapse_PDF24stampac" class="accordion-collapse collapse" aria-labelledby="PDF24stampac" data-bs-parent="#podesavanja">
-                  <p>
-                    <a href="https://pdf24-pdf-creator.en.softonic.com/download">"Download PDF24 PDF Creator for PC"</a>
-                  </p>
-                  <p>
-                    Када немамао штампач цртеж може да се подеси за штампу у "Free PDF24" програму према туторијалу:
-                  </p>
-                  <div class="accordion-body">
-                    <div class="card ratio ratio-16x9">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/n6E6qs3xm14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="info">
-                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_info" aria-expanded="true" aria-controls="collapse_info">
+                <h2 class="accordion-header" id="info_sr_kot">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_info_sr_kot" aria-expanded="true" aria-controls="collapse_info_sr_kot">
                     Кратке информације:
                   </button>
                 </h2>
-                <div id="collapse_info" class="accordion-collapse collapse" aria-labelledby="info" data-bs-parent="#podesavanja">
+                <div id="collapse_info_sr_kot" class="accordion-collapse collapse" aria-labelledby="info_sr_kot" data-bs-parent="#srafura_kotiranje">
                   <p>
                     На "Facebook" групи <a href="https://www.facebook.com/groups/128514813842644/">"Masinska skola Prijedor"</a> имате приручник за коришћени програм где су разни <a href="https://www.facebook.com/groups/128514813842644/files">"files"</a>-ови доступни члановима.
                   </p>
                   <h2>Коришћене команде:</h2>
                   <ul>
-                    <li>units,</li>
-                    <li>limits,</li>
+                    <li>single line text,</li>
+                    <li>offset,</li>
                     <li>line,</li>
+                    <li>dynamic input,</li>
+                    <li>object snap,</li>
                     <li>lineweight,</li>
-                    <li>rectangle,</li>
                     <li>copy,</li>
                     <li>layer,</li>
-                    <li>properties,</li>
-                    <li>single line text,</li>
+                    <li>circle,</li>
+                    <li>hatch,</li>
+                    <li>relative coordinate,</li>
+                    <li>absolute coordinate,</li>
+                    <li>dimension style,</li>
+                    <li>multiline line text,</li>
                     <li>options.</li>
                   </ul>
                 </div>
